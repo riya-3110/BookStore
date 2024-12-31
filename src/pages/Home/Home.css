@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+
+  /* background: linear-gradient(135deg, rgb(104, 54, 166), rgb(154, 113, 241)); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.logo-container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: white;
+}
+
+.logo-container .home-logo {
+  height: 100px;
+  position: relative;
+  bottom: 10px;
+}
+
+.logo-container .home-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.card-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px auto;
+}
+
+.logout-btn {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  padding: 12px 20px;
+  background: red;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 12px;
+  z-index: 100;
+}
+
+.logout-btn:hover {
+  border-radius: 10px;
+}
+
+.add-btn {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  padding: 12px 20px;
+  background: red;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 12px;
+  z-index: 100;
+}
+
+.add-btn:hover {
+  border-radius: 10px;
+}

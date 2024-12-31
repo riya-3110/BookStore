@@ -1,0 +1,60 @@
+.book-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 350px;
+  padding: 20px;
+}
+
+.book-details .book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border: 1px solid purple;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* .card-container p {
+  margin: 5px 0;
+} */
+.book-container b {
+  font-size: 1.3rem;
+  color: red;
+}
+
+.edit-btn {
+  padding: 12px 20px;
+  background: purple;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px auto;
+}
+
+.delete-btn {
+  padding: 12px 20px;
+  background: red;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px auto;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  border-radius: 10px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
