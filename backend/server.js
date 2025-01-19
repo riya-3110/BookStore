@@ -42,18 +42,6 @@ const authenticateJwt = (req, res, next) => {
   }
 };
 
-// const userAuthentication = (req, res, next) => {
-//   const { username, password } = req.body;
-//   const foundUser = USER.find(
-//     (u) => u.username === username && u.password === password
-//   );
-//   if (foundUser) {
-//     next();
-//   } else {
-//     res.status(403).json({ message: "User authentication failed !" });
-//   }
-// };
-
 app.post("/signup", async (req, res) => {
   const user = req.body;
 
